@@ -1,6 +1,7 @@
 .toppart {
     display: flex; 
-    padding-left: 25%; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 img {
@@ -16,9 +17,23 @@ img {
     text-align: center; 
 }
 
-.scorecont {
-    padding-top: 40px; 
-    padding-left: 60px; 
-    padding-right: 60px; 
+.compheading {
     text-align: center; 
+}
+
+.scorecont {
+    padding-top: 40px;  
+    text-align: center; 
+    padding-right: 60px; 
+    padding-left: 60px; 
+}
+
+.buttoncon {
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.picandtextwhole {
+    border-color: blue; 
 }
