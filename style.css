@@ -5,12 +5,17 @@
 }
 
 img {
-    width: auto; 
-    height: 200px;
+    width: 250px; 
+    height: auto;
+    border-radius: 7px; 
+    border: 3px solid rgb(87, 125, 175);
+    box-shadow: 15px 15px 15px rgb(153, 179, 214);
 }
 
 .title { 
+    padding-top: 20px; 
     text-align: center;
+    padding-bottom: 30px; 
 }
 
 .userheading {
@@ -21,8 +26,7 @@ img {
     text-align: center; 
 }
 
-.scorecont {
-    padding-top: 40px;  
+.scorecont {  
     text-align: center; 
     padding-right: 60px; 
     padding-left: 60px; 
@@ -34,6 +38,56 @@ img {
     margin-right: auto; 
 }
 
-.picandtextwhole {
-    border-color: blue; 
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: linear-gradient(rgb(201, 214, 231), rgb(175, 196, 222)); 
+}
+
+.playerscorecont {
+    margin: 10px; 
+    padding-top: 15px; 
+}
+
+.computerscorecont {
+    margin: 10px; 
+}
+
+.tiescorecont {
+    margin: 10px; 
+}
+
+.wltmessage {
+    margin: 10px;
+}
+
+.computermessage {
+    margin: 10px;
+}
+
+.reset {
+    margin: 10px;
+}
+
+.playermessage {
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgb(87, 125, 175);
+    border-radius: 4px;
+}
+
+button {
+    border-radius: 4px;
+    box-shadow: 10px 10px 15px rgb(153, 179, 214);
+}
+
+.buttoncon {
+    padding-bottom: 200px; 
 }

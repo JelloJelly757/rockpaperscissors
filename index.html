@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel = "stylesheet" href="style.css"
+    <link rel = "stylesheet" href="style.css">
 </head>
 <body> 
     <div class="title">
@@ -21,16 +21,33 @@
                 </div>
             </div>
             <div class="scorecont">
-                <p>SCORE:</p>
-                <p>0:0:0</p>
-                <p>WIN: LOSS: TIE</p>
-                <button type="buttonreset">RESET</button>
+                <div class="playerscorecont">
+                    <p>PLAYER SCORE: 0</p>
+                </div>
+                <div class="computerscorecont">
+                    <p>COMPUTER SCORE: 0</p>
+                </div>
+                <div class="tiescorecont">
+                    <p>TIES: 0</p>
+                </div>
+                <div class="message">
+                    <div class="playermessage">
+                        <p>PLAYER PICKED: </p>
+                    </div>
+                    <div class="computermessage">
+                        <p>COMPUTER PICKED:</p>
+                    </div>
+                    <div class="wltmessage">
+                        <p> WIN, LOSS OR TIE</p>
+                    </div>
+                    <button class="buttonreset">RESET</button>
+                </div>
             </div>
             <div class="imgntextright">
                 <div class="compheading">
                     <h3>COMPUTER</h3>
                 </div>
-                <div class="imgleft">
+                <div class="imgright">
                     <img src="https://t3.ftcdn.net/jpg/05/41/05/92/360_F_541059290_NjBdaMH5YPkt3uSbNcLLUCG9skkSOr4R.jpg" alt="rock paper scissors">
                 </div>
             </div> 
@@ -38,10 +55,10 @@
     </div>
     <div class="buttoncon">
     <p>PICK YOUR CHOICE:</p>
-    <button type="buttonrock">ROCK</button>
-    <button type="buttonpaper">PAPER</button>
-    <button type="buttonscissors">SCISSORS</button>
+    <button class="buttonrock">ROCK</button>
+    <button class="buttonpaper">PAPER</button>
+    <button class="buttonscissors">SCISSORS</button>
     </div> 
-    <script> src="script.js" </script>
+    <script src="script.js"></script>
 </body>
 </html>
