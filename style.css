@@ -46,7 +46,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background: linear-gradient(rgb(201, 214, 231), rgb(175, 196, 222)); 
+    background: linear-gradient(rgb(201, 214, 231), rgb(146, 175, 209)); 
 }
 
 .playerscorecont {
@@ -72,6 +72,7 @@ body {
 
 .reset {
     margin: 10px;
+    padding-top: 10px; 
 }
 
 .playermessage {
@@ -91,3 +92,5 @@ button {
 .buttoncon {
     padding-bottom: 200px; 
 }
+
+
